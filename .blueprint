@@ -1,0 +1,14 @@
+created:
+    - database/factories/Models/VideoFactory.php
+    - database/factories/Models/AudioFactory.php
+    - database/factories/Models/ImageFactory.php
+    - database/migrations/2021_07_30_021659_create_videos_table.php
+    - database/migrations/2021_07_30_021700_create_audio_table.php
+    - database/migrations/2021_07_30_021701_create_images_table.php
+    - app/Models/Video.php
+    - app/Models/Audio.php
+    - app/Models/Image.php
+models:
+    Models\Video: { title: string, description: 'string nullable', program: 'string nullable', event: 'string nullable', artist: 'string nullable', date: 'string nullable', url: string, timestamps: timestamps }
+    Models\Audio: { title: string, description: 'string nullable', program: 'string nullable', event: 'string nullable', artist: 'string nullable', date: 'string nullable', url: string, timestamps: timestamps }
+    Models\Image: { title: string, description: 'string nullable', program: 'string nullable', event: 'string nullable', artist: 'string nullable', date: 'string nullable', url: string, timestamps: timestamps }

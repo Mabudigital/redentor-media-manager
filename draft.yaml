@@ -1,0 +1,30 @@
+models:
+  Models\Video:
+    title: string
+    description: string nullable
+    program: string nullable
+    event: string nullable
+    artist: string nullable
+    date: string nullable
+    url: string
+    timestamps: true
+
+  Models\Audio:
+      title: string
+      description: string nullable
+      program: string nullable
+      event: string nullable
+      artist: string nullable
+      date: string nullable
+      url: string
+      timestamps: true
+
+  Models\Image:
+      title: string
+      description: string nullable
+      program: string nullable
+      event: string nullable
+      artist: string nullable
+      date: string nullable
+      url: string
+      timestamps: true
